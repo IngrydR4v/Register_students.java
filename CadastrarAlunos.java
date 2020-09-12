@@ -29,7 +29,6 @@ public class CadastrarAlunos extends JFrame implements ActionListener {
         cursosCB = new JComboBox(cursos);
         cursosCB.setPreferredSize(new Dimension(450, 50));
 
-
         painel = new JPanel(new GridLayout(6, 1));
         Font font = new Font("Comic Sans Ms", Font.BOLD, 20);
         Font font1 = new Font("Comic Sans Ms", Font.BOLD, 18);
@@ -197,7 +196,6 @@ public class CadastrarAlunos extends JFrame implements ActionListener {
         this.emails = emails;
     }
 
-
     @Override
     public String toString() {
         return "Cadastro: \n" +
@@ -206,6 +204,4 @@ public class CadastrarAlunos extends JFrame implements ActionListener {
                 "Telefone: " + telefones + "\n " +
                 "Email: " + emails + "\n\n";
     }
-
-
 }
